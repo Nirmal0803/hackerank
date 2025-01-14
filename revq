@@ -1,0 +1,44 @@
+ou are given list of companies whose annual revenue from all the countries is represent in a 2D matrix. For example
+
+Companys    Country1_revenue    Country2_revenue    Country3_revenue
+
+A           10000               20000               3000
+B           20000               40000               500
+C           5000                10000               5000
+The task is to print the name of the company which has the highest revenue in a year.
+
+Note : If more than one company has the same highest revenue in a year. print all the companies that has the same highest revenue in a year line by line.
+
+Input Format
+
+The first line contains only single integer M representing no of companies.
+The second line contains only single integer N representing no of countries.
+The next M lines contains:
+Name of the company as first parameter
+Next N parameters as the annual revenue of the company in N countries [space seperated]
+Constraints
+
+1 <= M, N <= 105
+
+Output Format
+
+A single line output with name of the country with highest annual revenue.
+
+or
+
+If more than one company has the same highest revenue in a year. print all the companies that has the same highest revenue in a year line by line.
+
+Note:
+
+The name of the company is case-sensitive
+It is guaranteed that the company name is a single world and does not contain spaces in between.
+Sample Input 0
+
+3
+3
+A_company 10000 20000 3000
+B_company 20000 40000 500
+C_company 5000 10000 5000
+Sample Output 0
+
+B_company
